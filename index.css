@@ -1,7 +1,8 @@
 body {
     margin:0;
     padding:0;
-    font-family: "G",'Open Sans', sans-serif;
+    font-family:'Garamond','Open Sans', sans-serif;
+    background-color: #ACC8E5;
   }
 
 header {
@@ -9,17 +10,112 @@ header {
     justify-content: center;
     align-items: center;
     background-color: #ACC8E5;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
   .logo {
-    max-width: 50%;
+    max-width: 40%;
     height:50%;
     padding-left: 30%;
-    padding-right:30%;
-    padding-top:25%; 
-    padding-bottom: 30%;
-    border-top-left-radius: 50% 50%;
+    padding-right:30%; 
+    padding-top: 7%;
+
+    /* border-top-left-radius: 50% 50%;
     border-top-right-radius: 50% 50%;
     border-bottom-right-radius: 50% 50%;
-    border-bottom-left-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%; */
   }
+
+h1{
+  text-align: center;
+  font-size: 45px;
+  color:#112A46;
+  font: "Georgia";
+
+}
+
+h2{
+  text-align: center;
+  font-size: 30px;
+  color:#092c44b9;
+  font: "Georgia";
+}
+
+.welcome{
+  text-align: center;
+  color:aliceblue;
+  /* margin-top: 20px; */
+  font-size: 60px;
+
+}
+
+.nav {
+  padding-top: 20px;
+  padding-bottom: 25px;
+  text-align: center;
+  justify-content: space-between;
+  font-size: 19px;
+  ;
+
+    
+}
+
+.introduction{
+  text-align: center;
+  color:#112A46;
+}
+
+.about-me-section {
+  background-color: ;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.my-work-section {
+  background-color: ;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.my-work-section-img {
+  display: flex;
+  flex-direction: repeat(auto-fit, minmax(300px, 1fr));
+  padding-left: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+
+  .contact-section {
+    background: ;
+    color: var(--clr-accent);
+    text-align: center;
+    padding: 2.5em 0;
+    font-size: var(--fs-h3);
+}
+
+.social-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 2em 0 0;
+  padding: 0;
+} 
+
+.social-list-link {
+
+  padding: .5em;
+}
