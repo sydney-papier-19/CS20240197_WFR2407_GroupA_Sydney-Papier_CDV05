@@ -82,8 +82,8 @@ h2{
   padding: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
+  /* margin-left: 20px;
+  margin-right: 20px; */
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -92,7 +92,7 @@ h2{
 .my-work-section-img {
   display: flex;
   flex-direction: repeat(auto-fit, minmax(300px, 1fr));
-  padding-left: 20px;
+  /* padding-left: 20px; */
   margin-left: 20px;
   margin-right: 20px;
 
